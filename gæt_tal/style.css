@@ -2,3 +2,18 @@ h2{
     color: rgb(205, 102, 205);
     font-style: italic ;
 }
+
+button{
+    color: rgb(87, 43, 87);
+    background-color: lightpink;
+    border: 1px solid purple;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+input{
+    border: 1px solid purple;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(255, 230, 234);
+}
