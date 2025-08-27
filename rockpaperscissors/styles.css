@@ -1,13 +1,15 @@
 body {
   margin: 0;
-  background-color: #444059;
+  background-color: #fffaad;
   font-family: 'Luckiest Guy', cursive;
   color: #eee;
 }
 
 h1 {
   text-align: center;
-  font-size: 8vw;
+  font-size: 5vw;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 #gamefield {
@@ -92,8 +94,8 @@ h1 {
 }
 
 #texts h1 {
-  color: #ffde53;
-  text-shadow: 4px 4px 1px red, -4px -4px 1px red, 4px -4px 1px red, -4px 4px 1px red;
+  color: #ffa0df;
+  text-shadow: 4px 4px 1px rgb(126, 242, 255), -4px -4px 1px rgb(126, 242, 255), 4px -4px 1px rgb(126, 242, 255), -4px 4px 1px rgb(126, 242, 255);
 }
 
 .hidden {
