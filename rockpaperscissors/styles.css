@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: #fffaad;
   font-family: 'Luckiest Guy', cursive;
-  color: #eee;
+  color: #ff75df;
 }
 
 h1 {
@@ -94,7 +94,7 @@ h1 {
 }
 
 #texts h1 {
-  color: #ffa0df;
+  color: #ff75df;
   text-shadow: 4px 4px 1px rgb(126, 242, 255), -4px -4px 1px rgb(126, 242, 255), 4px -4px 1px rgb(126, 242, 255), -4px 4px 1px rgb(126, 242, 255);
 }
 
