@@ -1,0 +1,20 @@
+h1{
+    color: deeppink;
+    font-style: serif;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: darkblue;
+    font-style: italic;
+}
+
+button{
+    background-color: rgb(196, 240, 255);
+    border-radius: 12px;
+    border: 2px deeppink solid;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;}
