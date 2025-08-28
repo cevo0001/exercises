@@ -17,17 +17,5 @@ btn.addEventListener("click", click_btn);
 });*/
 
 function click_btn() {
-  userGuess = inpt.value;
-  console.log("click");
-  console.log("userGuess");
-  let feedBack;
-  if (userGuess < randomNr) {
-    feedBack = "that's not right, try a higher number!";
-  } else if (userGuess > randomNr) {
-    feedBack = "try again! maybe a lower number?";
-  } else {
-    feedBack = "correct:)";
-  }
-  console.log(feedBack);
-  text.innerText = feedBack;
+ computerChoice();
 }
