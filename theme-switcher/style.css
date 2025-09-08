@@ -1,0 +1,120 @@
+/* ===== FÆLLES STYLING ===== */
+body {
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header, main, footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 15px;
+    padding: 25px;
+}
+
+/* ===== SUNFLOWER THEME 🌻 ===== */
+body[data-theme="sunflower"] {
+  --body-bg-col: #fffbea;
+  --header-bg-col: gold;
+  --main-bg-col: #fff5cc;
+  --footer-bg-col: #f7d774;
+  --text-col: #432020;
+}
+
+body[data-theme="sunflower"] {
+  background-color: var(--body-bg-col);
+  color: var(--text-col);
+}
+
+body[data-theme="sunflower"] header {
+  background-color: var(--header-bg-col);
+}
+
+body[data-theme="sunflower"] main {
+  background-color: var(--main-bg-col);
+}
+
+body[data-theme="sunflower"] footer {
+  background-color: var(--footer-bg-col);
+}
+
+/* ===== STARNIGHT THEME 🌌 ===== */
+body[data-theme="starnight"] {
+  --body-bg-col: #0a0a23;
+  --header-bg-col: #1a1a40;
+  --main-bg-col: #2a2a60;
+  --footer-bg-col: #111122;
+  --text-col: #fffa9a;
+}
+
+body[data-theme="starnight"] {
+  background-color: var(--body-bg-col);
+  color: var(--text-col);
+}
+
+body[data-theme="starnight"] header {
+  background-color: var(--header-bg-col);
+}
+
+body[data-theme="starnight"] main {
+  background-color: var(--main-bg-col);
+}
+
+body[data-theme="starnight"] footer {
+  background-color: var(--footer-bg-col);
+}
+
+/* ===== SWEETS THEME 🍭 ===== */
+body[data-theme="sweets"] {
+  --body-bg-col: #fff0f6;
+  --header-bg-col: #ff99cc;
+  --main-bg-col: #ffe6f0;
+  --footer-bg-col: #ffb3d9;
+  --text-col: purple;
+}
+
+body[data-theme="sweets"] {
+  background-color: var(--body-bg-col);
+  color: var(--text-col);
+}
+
+body[data-theme="sweets"] header {
+  background-color: var(--header-bg-col);
+}
+
+body[data-theme="sweets"] main {
+  background-color: var(--main-bg-col);
+}
+
+body[data-theme="sweets"] footer {
+  background-color: var(--footer-bg-col);
+}
+
+
+
+/* ===== STYLE DROPDOWN ===== */
+/* ===== DROPDOWN MATCHER THEME ===== */
+#theme-select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 2px solid var(--header-bg-col);  /* bruger temaets header-farve */
+  border-radius: 10px;
+  background-color: var(--main-bg-col);   /* bruger temaets main baggrund */
+  color: var(--text-col);                 /* bruger temaets tekstfarve */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+#theme-select:hover {
+  border-color: var(--footer-bg-col);    /* kan bruge footer-farve på hover for sjov effekt */
+  background-color: var(--body-bg-col);  /* body baggrund */
+}
+
