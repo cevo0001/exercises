@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,6 +27,50 @@
         <tbody></tbody>
 
 
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Filter</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+    <h1>Køretøjsoversigt</h1>
+
+    <!-- Knapper til filtrering -->
+    <div class="filter-buttons">
+        <button id="showAll">Vis alle</button>
+        <button id="electricVehicles">El-drevne</button>
+        <button id="moreThanTwoSeats">> 2 sæder</button>
+        <button id="electricOwnedByJonas">El-drevne ejet af Jonas</button>
+        <button id="rugbrodMoreThanOne">Rugbrød med plads til >1</button>
+    </div>
+
+    <!-- Feedback område -->
+    <p id="feedback"></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Fuel</th>
+                <th>Passengers</th>
+                <th>Stops</th>
+                <th>Owned By</th>
+                <th>Electric</th>
+                <th>Tandem</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
 </body>
 
 </html>
