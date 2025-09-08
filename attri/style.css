@@ -7,3 +7,12 @@
     background-color: black;
     color: white;
 }
+
+button{
+    background-color: rgb(253, 255, 200);
+    border: 1px solid pink;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
